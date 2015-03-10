@@ -2,7 +2,9 @@
 	/*padding: 0px;*/
 }
 header{
-	background: #3E3E3E;
+	/*background: #202020;*/
+	/*background: url(../img/slash_it.png);*/
+	background: url(../img/footer_lodyas.png);
 	padding: 20px 5px;
 }
 .logouis img{
@@ -27,5 +29,5 @@ header{
 	border-bottom: 4px solid #279874;
 }
 .banner{
-	background: #DBDCD6;
+	background: #F0f0f0;
 }
