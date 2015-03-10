@@ -1,3 +1,28 @@
 .container-fluid{
-	padding: 0px;
+	/*padding: 0px;*/
+}
+header{
+	background: #3E3E3E;
+	padding: 20px 5px;
+}
+.logouis img{
+	width: 20%;
+	display: inline-block;
+	vertical-align: middle;
+}
+header .logouis h1{
+	vertical-align: middle;
+	text-align: center;
+	color:#FFFFFF;
+	display: inline-block;
+	width: 79%;
+}
+header .acreditacion{
+	float: right;
+}
+header .acreditacion img{
+	height: 80px;
+}
+header{
+	border-bottom: 4px solid #279874;
 }
