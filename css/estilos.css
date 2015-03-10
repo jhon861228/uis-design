@@ -31,3 +31,12 @@ header{
 .banner{
 	background: #F0f0f0;
 }
+.banner .recursos li a{
+	background:rgb(36, 166, 62);
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: white;
+}
+.banner .recursos li a:hover{
+	background: #18842E;
+}
