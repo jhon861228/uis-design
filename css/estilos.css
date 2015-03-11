@@ -45,7 +45,7 @@ header{
 	border-bottom: 4px solid #279874;
 }
 .banner{
-	background: #F0f0f0;
+	background: white;
 }
 .banner .recursos li a{
 	background:rgb(36, 166, 62);
@@ -81,6 +81,7 @@ nav.navbar{
 	border-radius: 0px;
 	background: #279C79;
 	border: none;
+	box-shadow:0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
 	
 }
 .navbar-default .navbar-nav > li > a{
@@ -95,4 +96,21 @@ nav.navbar{
 }
 .navbar-default .navbar-nav > li>a:hover{
 	color: white;
+}
+.informacion_general{
+	
+	margin-bottom: 20px;
+	box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
+	border-radius: 2px;
+	border: 0;
+	background: white;
+}
+.informacion_general .contenido{
+	padding: 19px;
+}
+.informacion_general .titulo{
+	padding: 10px;
+	color: white;
+	border-bottom: 5px solid #7B7B7B;
+	background: #2FB3AF;
 }
