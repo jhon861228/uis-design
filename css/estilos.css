@@ -1,5 +1,20 @@
+body{
+	background: #EAEBE7;
+}
 .container-fluid{
 	/*padding: 0px;*/
+}
+.mapa_sitio ul{
+	float: right;
+}
+.mapa_sitio > ul > li > a{
+	border-radius: 0px;
+	color: rgb(89, 87, 87);
+	padding: 7px 15px;
+}
+.mapa_sitio > ul > li > a:hover,.mapa_sitio > ul > li > a:focus{
+	background: #379F76;
+	color: white;
 }
 header{
 	/*background: #202020;*/
@@ -8,7 +23,7 @@ header{
 	padding: 20px 5px;
 }
 .logouis img{
-	width: 20%;
+	width: 15%;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -18,6 +33,7 @@ header .logouis h1{
 	color:#FFFFFF;
 	display: inline-block;
 	width: 79%;
+	font-size: 2em;
 }
 header .acreditacion{
 	float: right;
@@ -36,7 +52,47 @@ header{
 	margin-top: 5px;
 	margin-bottom: 5px;
 	color: white;
+	padding:10px 10px;
+	font-size: 0.9em;
+}
+.banner .recursos li a .texto{
+	font-size: 12px;	
+}
+.banner .recursos li a .icono{
+	font-size: 18px;
+	float: left;
+	margin-right: 2px; 
+	margin-top: -2px;
 }
 .banner .recursos li a:hover{
 	background: #18842E;
+}
+.mensaje-flotante{
+	position: absolute;
+	z-index: 2;
+	background: rgba(37, 207, 80, 0.57);
+	padding: 10px ;
+	color: white;
+	right: 10px;
+	bottom: 0;
+}
+nav.navbar{
+
+	border-radius: 0px;
+	background: #279C79;
+	border: none;
+	
+}
+.navbar-default .navbar-nav > li > a{
+	color: white;
+}
+.navbar-default .navbar-nav > li{
+	height: 50px;
+	box-sizing:border-box;
+}
+.navbar-default .navbar-nav > li:hover{
+	border-bottom: 4px solid white;
+}
+.navbar-default .navbar-nav > li>a:hover{
+	color: white;
 }
