@@ -159,3 +159,17 @@ nav.navbar{
 	border-right: 2px solid #EF4E4E;
 	padding-right: 5px;
 }
+.informacion-general{
+	background: rgb(104, 184, 59);
+	padding-top: 20px;
+	border-top: 2px solid #545353;
+}
+.informacion-general ul{
+	padding: 0px;
+}
+.informacion-general ul li{
+	list-style: none;
+}
+.informacion-general ul li a{
+	color: white;
+}
