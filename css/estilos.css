@@ -122,10 +122,12 @@ nav.navbar{
 	background: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	
 }
 .noticias p{
 	text-align: justify;
 	font-size: 0.9em;
+
 }
 
 
@@ -161,6 +163,7 @@ nav.navbar{
 }
 .informacion-general{
 	background: rgb(104, 184, 59);
+	margin-top: 20px;
 	padding-top: 20px;
 	border-top: 2px solid #545353;
 }
@@ -171,5 +174,39 @@ nav.navbar{
 	list-style: none;
 }
 .informacion-general ul li a{
+	color: white;
+}
+
+
+/*Estilo 1 para caja contenedora*/
+.caja-contenedora{
+	border-top: 5px solid #68B83B;
+	padding-top: 0px;
+}
+.caja-contenedora .titulo{
+	padding-top: 7px;
+	margin-bottom: 10px;
+}
+.caja-contenedora .titulo h3{
+	display: inline;
+	background: #68B83B;
+	padding: 5px;
+	color: white;
+}
+
+/*Estilo 2 para caja contenedora*/
+
+.caja-contenedora2{
+	border-top: 5px solid #68B83B;
+	padding-top: 0px;
+}
+.caja-contenedora2 .titulo2{
+	
+	margin-bottom: 10px;
+}
+.caja-contenedora2 .titulo2 h3{
+	margin-top: 5px;
+	background: #68B83B;
+	padding: 5px;
 	color: white;
 }
