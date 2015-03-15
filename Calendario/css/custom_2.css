@@ -1,7 +1,7 @@
 /* Custom calendar elements */
 
 .custom-calendar-wrap {
-	margin: 10px auto;
+	margin: 0 auto;
 	position: relative;
 	overflow: hidden;
 }
@@ -37,7 +37,7 @@
 	padding: 5px 10px 10px 20px;
 	height: 60px;
 	position: relative;
-	border-top: 5px solid #68B83B;
+	border-top: 5px solid rgb(103, 185, 62);
 	border-bottom: 1px solid #ddd;
 }
 
@@ -215,7 +215,7 @@
 }
 
 .fc-calendar .fc-row > div.fc-today {
-	background: #68B83B;
+	background: rgb(103, 185, 62);
 	box-shadow: inset 0 -1px 1px rgba(0,0,0,0.1);
 }
 

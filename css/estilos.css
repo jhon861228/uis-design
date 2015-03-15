@@ -24,7 +24,7 @@ header{
 	padding: 20px 5px;
 }
 .logouis img{
-	width: 15%;
+	
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -33,7 +33,7 @@ header .logouis h1{
 	text-align: center;
 	color:#FFFFFF;
 	display: inline-block;
-	width: 79%;
+	width: 50%;
 	font-size: 2em;
 }
 header .acreditacion{
@@ -51,7 +51,7 @@ header{
   	margin-bottom: 10px;
 }
 .banner .recursos li a{
-	background:rgb(36, 166, 62);
+	background:rgb(103, 185, 62);
 	margin-top: 5px;
 	margin-bottom: 5px;
 	color: white;
@@ -168,7 +168,7 @@ nav.navbar{
 	background: rgb(104, 184, 59);
 	margin-top: 20px;
 	padding-top: 20px;
-	border-top: 2px solid #545353;
+	border-top:solid 4px #6E8186;
 }
 .informacion-general ul{
 	padding: 0px;
@@ -183,7 +183,7 @@ nav.navbar{
 
 /*Estilo 1 para caja contenedora*/
 .caja-contenedora{
-	border-top: 5px solid #68B83B;
+	border-top: 5px solid rgb(103, 185, 62);
 	padding-top: 0px;
 }
 .caja-contenedora .titulo{
@@ -192,7 +192,7 @@ nav.navbar{
 }
 .caja-contenedora .titulo h3{
 	display: inline;
-	background: #68B83B;
+	background: rgb(103, 185, 62);
 	padding: 5px;
 	color: white;
 }
@@ -209,10 +209,46 @@ nav.navbar{
 }
 .caja-contenedora2 .titulo2 h3{
 	margin-top: 5px;
-	background: #68B83B;
+	background: rgb(103, 185, 62);
 	padding: 5px;
 	color: white;
 }
 .dropdown-menu > li > a{
 	  border-bottom: 1px solid #E7E7E7 !important;
+}
+footer .enlaces img{
+	
+	height: 100px;
+	display: block;
+	margin: auto;
+}
+footer .enlaces{
+	background: white;
+}
+footer .pie{
+	background: #6E6E6E;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+.redes img{
+	width: 80%;
+}
+.actualidad .titulo{
+	  background: #fff;
+	  padding: 5px 10px 10px 20px;
+	  height: 60px;
+	  position: relative;
+	  border-top: 5px solid #68B83B;
+	  border-bottom: 1px solid #ddd;
+}
+.actualidad:before,.actualidad:after{
+	content: none;
+}
+.actualidad .fc-calendar-container{
+	padding-top: 5px;
+}
+.actualidad video{
+	display: block;
+	margin: auto;
 }
