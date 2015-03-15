@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito);
+
+.mapa ul{
+	float: right;
+}
+.mapa ul li a{
+	border-radius: 0px;
+}
+.mapa ul li a:hover{
+	background: #331337;
+	color: white;
+}
+.banner{
+	margin-bottom: 0px;
+}
+.breadcrumb li a{
+	font-family: 'Nunito', sans-serif;
+}
+.caja{
+	
+	background: white;
+	box-shadow:-5px -5px 12px #444,inset 1px black ; /*para la sombra de la caja */
+	margin-bottom: 10px;
+	border-top: 4px solid #36D12E;
+	cursor:pointer;
+
+
+}
+.caja h3{
+	background: #36D12E;
+	padding: 3px;
+}
+.myButton {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.logouis img:hover{
+	transition:0.5s;
+	-ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+	border-radius: 30px 0px 30px 0px;
+
+}
+.logouis img{
+	transition:0.5s;
+
+}
