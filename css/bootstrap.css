@@ -3909,6 +3909,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-top: 4px;
 }
 @media (min-width: 768px) {
+  
   .navbar-toggle {
     display: none;
   }
@@ -3979,6 +3980,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 8px;
 }
 @media (min-width: 768px) {
+
   .navbar-form .form-group {
     display: inline-block;
     margin-bottom: 0;
@@ -6012,9 +6014,30 @@ button.close {
   }
 }
 @media (max-width: 767px) {
+
+
+
+
   .visible-xs-inline-block {
     display: inline-block !important;
   }
+  .redes li{
+    float: left !important;
+  }
+  .custom-calendar-wrap,.actualidad{
+    margin-top: 10px !important;
+  }
+  .noticias article{
+    margin-bottom: 10px;
+  }
+  .row{
+    margin-right:-5px !important;
+  }
+  .informacion-general{
+    padding-left:30px;
+  }
+
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .visible-sm {
