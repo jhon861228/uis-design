@@ -6021,8 +6021,17 @@ button.close {
   .visible-xs-inline-block {
     display: inline-block !important;
   }
+  .redes{
+    margin-top: 20px;
+  }
   .redes li{
     float: left !important;
+  }
+  .redes img{
+    width: 80px !important;
+    height: 80px !important;
+    display: block;
+    margin: auto;
   }
   .custom-calendar-wrap,.actualidad{
     margin-top: 10px !important;
